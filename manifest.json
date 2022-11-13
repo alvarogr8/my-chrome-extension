@@ -1,0 +1,15 @@
+{
+  "name": "extension name",
+  "version": "1.0.0",
+  "description": "extension description",
+  "manifest_version": 3,
+  "author": "me",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "extension default title"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  }
+}

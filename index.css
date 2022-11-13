@@ -1,0 +1,53 @@
+body {
+  width: 250px;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+input,
+textarea,
+button {
+  background: none;
+  display: block;
+  font: inherit;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+input {
+  width: 200px;
+  font-size: larger;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+textarea {
+  width: 240px;
+  min-height: 2ch;
+  resize: vertical;
+}
+
+.container {
+  background-color: lightyellow;
+  display: block;
+  border-radius: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+button:hover {
+  scale: 1.2;
+}
+.add {
+  background-color: lightgreen;
+}
+
+.delete {
+  background-color: lightpink;
+  float: right;
+}
